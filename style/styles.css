@@ -88,17 +88,21 @@ section.navigation-menu {
 .btn {
   cursor: pointer;
   display: inline-block;
-  background: var(--primary-color);
-  color: var(--accent1-color);
+  background-color: var(--primary-color);
+  color: white;
+  font-family: var(--paragraph-font);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
   text-decoration: none;
-  padding: 10px 30px;
-  margin: 20px 0;
-  border: 0;
 }
 
 .btn:hover {
-  color: var(--accent2-color);
-  transform: scale(0.98);
+  background-color: var(--accent2-color);
+  border: 1px solid var(--accent1-color);
 }
 
 .logo {
@@ -186,14 +190,11 @@ section.navigation-menu {
 #resume-page-body{
   margin: 0;
   font-family: var(--paragraph-font);
- 
-  
 }
 
 #resume-page-header{
   display: flex;
   flex-direction: column;
-
 }
 
 .resume-container{
@@ -470,29 +471,7 @@ a .card {
   }
 }
 
-/* --------- imported media query ----------*/
 
-@media (min-width: 1200px) {
-}
-
-@media (max-width: 1299px) and (min-width: 979px) {
-}
-@media (max-width: 1300px) {
-}
-@media (max-width: 979px) {
-}
-@media (min-width: 768px) and (max-width: 979px) {
-}
-@media (max-width: 767px) {
-}
-@media (max-width: 640px) {
-}
-@media (max-width: 600px) {
-}
-@media (max-width: 480px) {
-}
-@media (max-width: 320px) {
-}
 
 /*  ABOUT ME */
 
@@ -523,7 +502,7 @@ a .card {
   max-width: 100px;
 }
 
-/* MOUNTAINS CARD AREA*/
+/*  AREA*/
 #background {
   /* padding: 50px 10px 20px 50px; */
   background-color: var(--primary-color);
@@ -548,8 +527,6 @@ a .card {
   padding: 35px;
   text-align: center;
 }
-
-
 
 /* CONTACT */
 
@@ -595,7 +572,7 @@ a .card {
   position: absolute;
   /* top: 50%; */
   left: 20%;
-  bottom: -40%;
+  bottom: -30%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: var(--primary-color);
@@ -671,7 +648,7 @@ a .card {
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: var(--primary-color);
   color: white;
 }
 
@@ -683,8 +660,9 @@ iframe{
 }
 
 .modal-footer {
+  text-align: center;
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: var(--primary-color);
   color: white;
 }
 
@@ -693,7 +671,7 @@ iframe{
   position: absolute;
   /* top: 50%; */
   left: 40%;
-  bottom: -42%;
+  bottom: -32%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: var(--accent2-color);
@@ -711,11 +689,16 @@ iframe{
   border: 1px solid var(--accent1-color);
 }
 
+#meet-me{
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .three .btn{
   position: absolute;
   /* top: 50%; */
   left: 69%;
-  bottom: -42%;
+  bottom: -32%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: var(--accent2-color);
@@ -816,6 +799,45 @@ iframe{
 }
 
 
+/*  APPOINTMENT */
+
+.appointment{
+  display: flex;
+  flex-direction: column;
+  }
+
+.title-appointment{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  background-color: var(--primary-color);
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.sched-appoint img{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.title-appointment .btn{
+  background-color: var(--accent2-color);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.title-appointment .btn:hover{
+  background-color: var(--primary-color);
+  border: 1px solid var(--accent1-color);
+}
 
 /* FOOTER */
 
