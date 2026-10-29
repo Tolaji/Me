@@ -11,8 +11,10 @@
   </head>
   <body>
     <header>
-      <div class="logo">Pelican Prince</div>
-      <div class="logo-image"><img src="img/portfolio_logo.png" alt="" /></div>
+      <a href="index.html" class="brand" aria-label="Pelican Prince, go to the homepage">
+        <div class="logo">Pelican Prince</div>
+        <div class="logo-image"><img src="img/portfolio_logo.png" alt="" /></div>
+      </a>
       <div class="toggle"></div>
 
       <div id="menu-button" onclick="toggleMenu()">
@@ -21,9 +23,12 @@
       <div id="menu-content" style="display: none"></div>
     </header>
 
-    <section>
+    <section class="contact-intro">
       <div class="title">
         <h1>Contact Me</h1>
+
+        <div class="intro-grid">
+          <div class="intro-card">
 
         <p>
           Welcome to my advanced contact form! Your connection with me is just a
@@ -40,6 +45,9 @@
           much assistance as you need!
         </p>
 
+          </div>
+
+          <div class="intro-card">
         <h3>Schedule a Video Chatroom Session</h3>
 
         <p>
@@ -62,6 +70,8 @@
           out via email at <a href="#contact-me">tolaji5111@yahoo.co.uk</a> to
           collaborate with you!
         </p>
+          </div>
+        </div>
       </div>
     </section>
     <section>
@@ -74,6 +84,7 @@
       <div class="contact-layout">
         <article class="one">
           <div class="map-diagram">
+            <h1>Find Me</h1>
             <img src="img/map-diagram.png" alt="Map Diagram" />
             <button id="myBtn">My Location</button>
           </div>

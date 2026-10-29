@@ -9,13 +9,16 @@
     <link rel="shortcut icon" href="img/favicon.icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style/styles.css" />
 
+    <meta name="description" content="Resume of Adetokunbo Olutola Osibo: full-stack developer, IT infrastructure specialist and lifelong learner." />
     <title>Pelican Prince | Resume</title>
   </head>
 
   <body id="resume-page-body">
     <header id="resume-page-header">
-      <div class="logo">Pelican Prince </div>
-      <div class="logo-image"><img src="img/portfolio_logo.png" alt="" /></div>
+      <a href="index.html" class="brand" aria-label="Pelican Prince, go to the homepage">
+        <div class="logo">Pelican Prince</div>
+        <div class="logo-image"><img src="img/portfolio_logo.png" alt="" /></div>
+      </a>
       <div class="toggle"></div>
 
       <div id="menu-button" onclick="toggleMenu()">
@@ -24,94 +27,273 @@
       <div id="menu-content" style="display: none"></div>
     </header>
 
-    <!-- REACHING -->
+    <!-- RESUME -->
     <div class="resume-container">
-      
-
-      <section class="portfolio-container">
-        <h1>My Skills</h1>
-        <section class="skills">
-          <article>
-            <h1>Adetokunbo Olutola Osibo</h1>
-            <b>Professional Summary</b>
-            <p>
-              Experienced IT Infrastructure Technician with a demonstrated history of deploying robust computer network infrastructures, CCTV systems, WiFi networks, and domain controllers. Recently transitioned into the realm of computer programming, showcasing a passion for coding and a keen interest in leveraging Python and associated frameworks for program development. A budding knowledge of Python, HTML, CSS, and currently expanding skills in JavaScript (MERN stack) and exploring Django framework. Committed to tackling real-world challenges and driving substantial success in every endeavor.
-            </p>
-
-            <b>Experience</b>
-            <br>
-
-            <b>Education</b>
-            <ul>
-              <li>Completed a comprehensive program focused on developing proficiency in programming languages and frameworks.</li>
-              <li>Acquired advanced knowledge in Python, HTML, and CSS, laying a solid foundation for building dynamic web applications.</li>
-              <li>Currently expanding skills in JavaScript and exploring the Django framework for enhanced web development capabilities.</li>
-            </ul>
-
-            <b>Skills</b>
-            <ul>
-              <li>Programming Languages: Python</li>
-              <li>HTML, CSS, JavaScript</li>
-              <li>Frameworks: Django</li>
-              <li>IT Infrastructure Deployment</li>
-              <li>Network Configuration and Management</li>
-              <li>CCTV Systems Installation</li>
-              <li>WiFi Network Optimization</li>
-            </ul>
-
-            <b>Certificates</b>
-            <p>Presentation of certificates obtained</p>
-
-            <b>Projects  </b>
-            <p><a href="#cards">Projects</a> concluded so far</p>
-          </article>
-
-          <!-- Skills Indicator -->
-          <article>
-
-            <p>Network Infrastructure</p>
-            <div class="skills-container">
-              <div class="skills network">60%</div>
-            </div>
-
-            <p>LAN & Wifi Deployment</p>
-            <div class="skills-container">
-              <div class="skills lan-wifi ">60%</div>
-            </div>
-
-            <p>Surveillance & CCTV Deployment</p>
-            <div class="skills-container">
-              <div class="skills cctv">60%</div>
-            </div>
-          
-            <p>HTML</p>
-            <div class="skills-container">
-              <div class="skills html">90%</div>
-            </div>
-
-            <p>CSS</p>
-            <div class="skills-container">
-              <div class="skills css">80%</div>
-            </div>
-
-            <p>JavaScript</p>
-            <div class="skills-container">
-              <div class="skills js">65%</div>
-            </div>
-
-            <p>Python</p>
-            <div class="skills-container">
-              <div class="skills python">60%</div>
-            </div>
-
-            
-          </article>
-        </section>
+      <!-- Intro -->
+      <section class="rs-intro">
+        <h1 class="rs-name">Adetokunbo Olutola Osibo</h1>
+        <p class="rs-tagline">Full-Stack Developer &middot; Web &amp; Mobile &middot; Habitual Learner</p>
+        <ul class="rs-links">
+          <li><a href="mailto:tolaji5111@yahoo.co.uk">tolaji5111@yahoo.co.uk</a></li>
+          <li><a href="https://www.linkedin.com/in/adetokunbo-osibo-a76b4027" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/Tolaji" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
       </section>
 
-      
-      <section class="reached-container">
-        <h1>Reached!</h1>
+      <section class="rs-layout">
+        <!-- Main column -->
+        <div class="rs-main">
+          <article class="rs-block">
+            <h2>Summary</h2>
+            <p>
+              Full-Stack Developer with experience building web, mobile and API-driven applications,
+              backed by more than a decade of hands-on IT infrastructure work. Skilled in developing
+              practical, user-focused solutions across the frontend, backend and database layers.
+              Passionate about continuous learning, problem-solving, and creating real-world software
+              that is functional, scalable and impactful.
+            </p>
+          </article>
+
+          <article class="rs-block">
+            <h2>Technical Skills</h2>
+            <ul class="rs-list">
+              <li>Build responsive web applications using JavaScript, TypeScript, React, Next.js, HTML and CSS.</li>
+              <li>Develop backend systems and RESTful APIs using Node.js, Express and .NET.</li>
+              <li>Create Android mobile applications using Kotlin and modern development practices.</li>
+              <li>Design and manage database solutions with MySQL, MongoDB and SQLite.</li>
+              <li>Use Git, GitHub and VS Code for version control and efficient software development.</li>
+              <li>Design, deploy and secure LAN/Wi-Fi networks, CCTV systems and Windows server environments.</li>
+            </ul>
+          </article>
+
+          <article class="rs-block" id="skills-indicator">
+            <h2>Skills Indicator</h2>
+            <p class="rs-note">Self-assessed proficiency, from familiar to expert.</p>
+            <div class="rs-groups">
+              <div class="rs-group">
+                <h3>Frontend</h3>
+                <ul class="rs-bars">
+                  <li class="rs-bar" style="--level: 90"><span class="rs-bar-label">HTML5</span><span class="rs-bar-value">90%</span><span class="rs-bar-track" role="img" aria-label="HTML5, 90 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 85"><span class="rs-bar-label">CSS3</span><span class="rs-bar-value">85%</span><span class="rs-bar-track" role="img" aria-label="CSS3, 85 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 75"><span class="rs-bar-label">JavaScript</span><span class="rs-bar-value">75%</span><span class="rs-bar-track" role="img" aria-label="JavaScript, 75 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 65"><span class="rs-bar-label">TypeScript</span><span class="rs-bar-value">65%</span><span class="rs-bar-track" role="img" aria-label="TypeScript, 65 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 65"><span class="rs-bar-label">React</span><span class="rs-bar-value">65%</span><span class="rs-bar-track" role="img" aria-label="React, 65 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 60"><span class="rs-bar-label">Next.js</span><span class="rs-bar-value">60%</span><span class="rs-bar-track" role="img" aria-label="Next.js, 60 percent"><span class="rs-bar-fill"></span></span></li>
+                </ul>
+              </div>
+
+              <div class="rs-group">
+                <h3>Backend &amp; APIs</h3>
+                <ul class="rs-bars">
+                  <li class="rs-bar" style="--level: 70"><span class="rs-bar-label">Node.js &amp; Express</span><span class="rs-bar-value">70%</span><span class="rs-bar-track" role="img" aria-label="Node.js and Express, 70 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 70"><span class="rs-bar-label">RESTful APIs</span><span class="rs-bar-value">70%</span><span class="rs-bar-track" role="img" aria-label="RESTful APIs, 70 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 65"><span class="rs-bar-label">Python</span><span class="rs-bar-value">65%</span><span class="rs-bar-track" role="img" aria-label="Python, 65 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 55"><span class="rs-bar-label">.NET / C#</span><span class="rs-bar-value">55%</span><span class="rs-bar-track" role="img" aria-label=".NET and C sharp, 55 percent"><span class="rs-bar-fill"></span></span></li>
+                </ul>
+              </div>
+
+              <div class="rs-group">
+                <h3>Mobile &amp; Databases</h3>
+                <ul class="rs-bars">
+                  <li class="rs-bar" style="--level: 55"><span class="rs-bar-label">Kotlin (Android)</span><span class="rs-bar-value">55%</span><span class="rs-bar-track" role="img" aria-label="Kotlin Android, 55 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 70"><span class="rs-bar-label">MySQL</span><span class="rs-bar-value">70%</span><span class="rs-bar-track" role="img" aria-label="MySQL, 70 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 65"><span class="rs-bar-label">MongoDB</span><span class="rs-bar-value">65%</span><span class="rs-bar-track" role="img" aria-label="MongoDB, 65 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 65"><span class="rs-bar-label">SQLite</span><span class="rs-bar-value">65%</span><span class="rs-bar-track" role="img" aria-label="SQLite, 65 percent"><span class="rs-bar-fill"></span></span></li>
+                </ul>
+              </div>
+
+              <div class="rs-group">
+                <h3>Infrastructure &amp; Tools</h3>
+                <ul class="rs-bars">
+                  <li class="rs-bar" style="--level: 90"><span class="rs-bar-label">LAN &amp; Wi-Fi Deployment</span><span class="rs-bar-value">90%</span><span class="rs-bar-track" role="img" aria-label="LAN and Wi-Fi deployment, 90 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 90"><span class="rs-bar-label">CCTV &amp; Surveillance</span><span class="rs-bar-value">90%</span><span class="rs-bar-track" role="img" aria-label="CCTV and surveillance, 90 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 80"><span class="rs-bar-label">Git &amp; GitHub</span><span class="rs-bar-value">80%</span><span class="rs-bar-track" role="img" aria-label="Git and GitHub, 80 percent"><span class="rs-bar-fill"></span></span></li>
+                  <li class="rs-bar" style="--level: 50"><span class="rs-bar-label">Cybersecurity <em>(in progress)</em></span><span class="rs-bar-value">50%</span><span class="rs-bar-track" role="img" aria-label="Cybersecurity in progress, 50 percent"><span class="rs-bar-fill"></span></span></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="rs-block">
+            <h2>Project Experience</h2>
+            <ul class="rs-list">
+              <li><strong>News-Aggregator</strong> &ndash; a Kotlin Android application combining mobile UI development with Firebase-backed data, security rules and content delivery for a structured news-reading experience.</li>
+              <li><strong>AleejoTrips</strong> &ndash; a safe-travel and logistics platform reflecting full-stack development, security considerations and service-focused web design.</li>
+              <li><strong>landersCC</strong> &ndash; a fully functional pilot chamber-of-commerce project that brings the mentorship alumni community system into secondary schools, with responsive layouts, organised content and user-focused navigation.</li>
+              <li><strong>Live-Multi-channel</strong> &ndash; a portfolio showcase dashboard using Google authentication, polling, caching and live status tracking so users can monitor subscribed YouTube channels and switch between live streams efficiently.</li>
+              <li><strong>Chat-App</strong> &ndash; a client-server chat application built with Python's standard library.</li>
+              <li><strong>Next.js application</strong> &ndash; a full-stack TypeScript web application built for BYU-Idaho (WDD 430).</li>
+            </ul>
+            <p class="rs-note">More on <a href="https://github.com/Tolaji" target="_blank" rel="noopener">GitHub</a>, plus <a href="#cards">PathwayConnect coursework projects</a> below.</p>
+          </article>
+
+          <article class="rs-block">
+            <h2>Professional Experience</h2>
+
+            <div class="rs-job">
+              <div class="rs-job-head">
+                <h3>Technical Director</h3>
+                <span class="rs-date">Current</span>
+              </div>
+              <p class="rs-org">Weflut Solutions Services, Abeokuta, Nigeria</p>
+              <ul class="rs-list">
+                <li>Deliver technical support to numerous end-users, resolving hardware, software and network issues to keep daily business running.</li>
+                <li>Install and configure desktops, laptops, servers and CCTV systems, improving office administration and security and reducing downtime by 40%.</li>
+                <li>Set up LAN/Wi-Fi networks and remote-access systems, increasing service availability and accessibility.</li>
+                <li>Train users and create easy-to-follow documentation, speeding up issue resolution and reducing repeat support requests by 30%.</li>
+              </ul>
+            </div>
+
+            <div class="rs-job">
+              <div class="rs-job-head">
+                <h3>CEO / Founder</h3>
+                <span class="rs-date">Jan 2025 &ndash; Current</span>
+              </div>
+              <p class="rs-org">Weflut Solutions Ventures, Abeokuta, Nigeria</p>
+              <ul class="rs-list">
+                <li>Architect SaaS products.</li>
+              </ul>
+            </div>
+
+            <div class="rs-job">
+              <div class="rs-job-head">
+                <h3>IT Support Technician</h3>
+                <span class="rs-date">2010 &ndash; Dec 2022</span>
+              </div>
+              <p class="rs-org">Globalbits Limited, Lagos, Nigeria</p>
+              <ul class="rs-list">
+                <li>Provided comprehensive technical support, resolving hardware, software and IT-related issues efficiently.</li>
+                <li>Assembled and configured PCs for clients, and installed and configured hardware and software for desktops, laptops, servers, peripherals and radiology equipment.</li>
+                <li>Configured local and remote monitoring for system performance to identify and resolve issues promptly.</li>
+                <li>Managed user accounts on Windows server machines.</li>
+                <li>Deployed LAN infrastructure for seamless Wi-Fi connectivity, and implemented firewall rules and remote-access solutions.</li>
+                <li>Deployed and configured CCTV systems for security monitoring and as a business management tool.</li>
+                <li>Conducted training sessions, wrote user documentation and collaborated with cross-functional IT teams.</li>
+              </ul>
+            </div>
+
+            <div class="rs-job">
+              <div class="rs-job-head">
+                <h3>AVSEC Officer</h3>
+                <span class="rs-date">2001 &ndash; 2009</span>
+              </div>
+              <p class="rs-org">Federal Airports Authority of Nigeria (FAAN)</p>
+              <ul class="rs-list">
+                <li>Screened passengers, baggage and cargo for prohibited items and patrolled airport premises to prevent security threats.</li>
+                <li>Monitored surveillance systems and checked the authorisation of staff, contractors and visitors for restricted areas.</li>
+                <li>Responded to emergencies such as bomb threats and hijackings, collaborating with other agencies.</li>
+              </ul>
+            </div>
+
+            <div class="rs-job">
+              <div class="rs-job-head">
+                <h3>Manager</h3>
+                <span class="rs-date">1998 &ndash; 2005</span>
+              </div>
+              <p class="rs-org">Folmaka Nigeria Limited</p>
+              <ul class="rs-list">
+                <li>Set up Folmaka Business Centre in a fast-paced environment and built a high-performance team.</li>
+                <li>Drove revenue growth and customer experience from zero to full operation through research and strategic planning.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="rs-block">
+            <h2>Volunteer Experience</h2>
+
+            <div class="rs-job">
+              <div class="rs-job-head">
+                <h3>Ward Clerk</h3>
+                <span class="rs-date">2024 &ndash; Current</span>
+              </div>
+              <p class="rs-org">The Church of Jesus Christ of Latter-day Saints, Oke-Ata Ward, Abeokuta</p>
+              <ul class="rs-list">
+                <li>Maintain accurate membership, attendance and administrative records, and build statistical reports for Stake and Church headquarters.</li>
+                <li>Manage financial records, coordinate ward meetings, and handle membership interviews and record transfers with strict confidentiality.</li>
+                <li>Implement technology and train members in its use.</li>
+              </ul>
+            </div>
+
+            <div class="rs-job">
+              <div class="rs-job-head">
+                <h3>Head, IT Department</h3>
+                <span class="rs-date">2011 &ndash; 2022</span>
+              </div>
+              <p class="rs-org">Mountain of Fire and Miracles Ministries, Region 8 HQ, Lagos</p>
+              <ul class="rs-list">
+                <li>Established the IT and Media Unit team and replaced analog livestreaming with software-based video mixing (vMix).</li>
+                <li>Collaborated with developers to create and deploy multichannel livestream web and mobile apps, an online radio and a news bulletin platform on zero budget, increasing attendance by 50%.</li>
+                <li>Improved the conversion rate of the &ldquo;MFM Online Church&rdquo; app by 20% through a redesign.</li>
+                <li>Communicated technical concepts clearly, helping to secure funding.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="rs-side">
+          <article class="rs-block">
+            <h2>Education</h2>
+            <div class="rs-edu">
+              <h3>B.Sc., Software Development</h3>
+              <p>Brigham Young University&ndash;Idaho<br /><span class="rs-date">Nov 2025 &ndash; In progress</span></p>
+            </div>
+            <div class="rs-edu">
+              <h3>AAS, Software Development</h3>
+              <p>Brigham Young University&ndash;Idaho<br /><span class="rs-date">July 2024 &ndash; April 2026</span></p>
+            </div>
+            <div class="rs-edu">
+              <h3>Diploma, Web &amp; Computer Programming</h3>
+              <p>Brigham Young University&ndash;Idaho<br /><span class="rs-date">Sept 2023 &ndash; April 2025</span></p>
+            </div>
+            <div class="rs-edu">
+              <h3>Diploma, Computer Engineering</h3>
+              <p>Folmaka Computer Training Center, Lagos<br /><span class="rs-date">July 2000</span></p>
+            </div>
+            <div class="rs-edu">
+              <h3>NCE, Business Education</h3>
+              <p>Federal College of Education, Abeokuta<br /><span class="rs-date">Aug 1996</span></p>
+            </div>
+            <div class="rs-edu">
+              <h3>W.A.E.C.</h3>
+              <p>Maryland Comprehensive Secondary School, Lagos<br /><span class="rs-date">Nov 1989</span></p>
+            </div>
+          </article>
+
+          <article class="rs-block">
+            <h2>Certifications</h2>
+            <ul class="rs-certs">
+              <li><span>Cisco Certified Network Associate (CCNA)</span><em class="rs-badge">In progress</em></li>
+              <li><span>Cisco Certified Network Professional (CCNP)</span><em class="rs-badge">Preparing</em></li>
+              <li><span>Google Cybersecurity Specialization (Coursera)</span><em class="rs-badge">In progress</em></li>
+              <li><span>PathwayConnect Certificate, BYU-Pathway Worldwide</span><em class="rs-date">2023</em></li>
+              <li><span>Project Management Certificate (Coursera)</span><em class="rs-date">Mar 2023</em></li>
+              <li><span>Agile with Atlassian Jira (Coursera)</span><em class="rs-date">2023</em></li>
+              <li><span>Automate Tasks and Processes with Jira (Coursera)</span><em class="rs-date">2023</em></li>
+            </ul>
+          </article>
+
+          <article class="rs-block">
+            <h2>Transferable Skills</h2>
+            <ul class="rs-chips">
+              <li>Agile practices</li>
+              <li>Project adaptability</li>
+              <li>Project ownership</li>
+              <li>Full-stack thinking</li>
+              <li>Technical clarity</li>
+              <li>Time management</li>
+              <li>User-focused mindset</li>
+              <li>Collaboration readiness</li>
+              <li>Continuous learning</li>
+              <li>Growth mindset</li>
+            </ul>
+          </article>
+        </aside>
+      </section>
+
+
+<section class="reached-container">
+        <h1>Certificates</h1>
         <!-- Reached section begins -->
         <ul>
           <div class="row">
@@ -123,7 +305,7 @@
               <!-- 1st Certificate -->
               <li class="box">
                 <img  src="img/Atlas-with-Atlasian-Cert.png" alt=""/>
-                <h3>What i Learnt</h3>
+                <h3>What I Learnt</h3>
                 <p>
                   <ul>
                     <li> Basics of agile methodologies (scrum and and kanban).</li> 
@@ -137,7 +319,7 @@
               <li class="box">
                 <img
                     src="img/Automate-tasks-and-processes-with-Jira.png" alt=""/>
-                <h3>What i Learnt</h3>
+                <h3>What I Learnt</h3>
                 <p>
                   <ul>
                     <li>Create automation rules with Jira using triggers, conditions and events.</li>
@@ -150,16 +332,15 @@
               <!-- 3rd Certificate -->
               <li class="box">
                 <img  src="img/Pathway-Connect-Certificate.png" alt="PathwayConnect Certificate"/>
-                <h3>What i Learnt</h3>
+                <h3>What I Learnt</h3>
                 <p>
                   <ul>
                     <li>PC101 Life Skills</li>
                     <li>PC102 Professional Skills</li>
-                    <li>PC103 Univeristy Skills</li>
+                    <li>PC103 University Skills</li>
                     <li>Gateway Certificate Course: Web and Computer Programming - Python</li>
                     <br>
-                    <li><a href="">Details</a></li>
-                    <li><a href="javascript:void(0);" onclick="openPDF()"a>Unofficial Transcript</a></li>
+                    <li><a href="Documents/UnofficialTranscript.pdf" target="_blank" rel="noopener">Unofficial Transcript</a></li>
                     
                   </ul>
                 </p>
@@ -174,7 +355,7 @@
                 </div>
                 
                   <ul>
-                    <li>Currently working on obtaining my next Establishment of Trust in Tech</li>
+                    <li>Currently working toward Cisco CCNA and the Google Cybersecurity Specialization</li>
                   </ul>
                 
               </li>

@@ -11,8 +11,10 @@
   </head>
   <body>
     <header>
-      <div class="logo">Pelican Prince</div>
-      <div class="logo-image"><img src="img/portfolio_logo.png" alt="" /></div>
+      <a href="index.html" class="brand" aria-label="Pelican Prince, go to the homepage">
+        <div class="logo">Pelican Prince</div>
+        <div class="logo-image"><img src="img/portfolio_logo.png" alt="" /></div>
+      </a>
       <div class="toggle"></div>
 
       <div id="menu-button" onclick="toggleMenu()">
@@ -22,44 +24,46 @@
     </header>
 
     <section class="appointment">
-      <h1>Schedule An Appointment</h1>
-        <div class="title-appointment">
-            <article>
-                <div class="sched-appoint">
-                    <h3>One-On-One Appointment</h3>
-                    <img src="img/cup-of-coffee.jpg" alt="One-on-One Appointment" />
-                    <div>
-                        <a href="https://calendly.com/pelican-prince/meet-me-one-on-one" target="_blank">
-                        <button class="btn">Schedule</button>
-                    </a>
-                    </div>
-                </div>
-            </article>
-            <article>  
-                <div class="sched-appoint">
-                    <h3>Group Appointment</h3>
-                    <img src="img/thumb.jpg" alt="Group Appointment" />
-                    <div>
-                        <a href="#" target="_blank">
-                            <button class="btn">Schedule</button>
-                        </a>
-                    </div>
-                    
-                </div>
-            </article>
-            <article>
-                <div class="sched-appoint">
-                    <h3>Mind Robin Appointment</h3>
-                    <img src="img/genius appointment.jpg" alt="Round Robin Appointment" />
-                    <div>
-                        <a href="#" target="_blank">
-                            <button class="btn">Schedule</button>
-                        </a>
-                    </div>
-                </div>
-            </article>
-        </div>
-    
+      <div class="appt-intro">
+        <h1>Schedule An Appointment</h1>
+        <p>
+          Choose the session format that suits you. Every session takes place in
+          my private, encrypted video chat room, and bookings are confirmed
+          within 24 hours.
+        </p>
+      </div>
+
+      <div class="appt-grid">
+        <article class="appt-card">
+          <img src="img/cup-of-coffee.jpg" alt="A cup of coffee on a planner" />
+          <div class="appt-body">
+            <h3>One-On-One Appointment</h3>
+            <p>A private, focused conversation about your project, idea or question.</p>
+          </div>
+          <a href="https://calendly.com/pelican-prince/meet-me-one-on-one" target="_blank" rel="noopener">
+            <button class="btn">Schedule</button>
+          </a>
+        </article>
+
+        <article class="appt-card">
+          <img src="img/thumb.jpg" alt="Two thumbs up" />
+          <div class="appt-body">
+            <h3>Group Appointment</h3>
+            <p>A shared session for teams or several people who want to talk things through together.</p>
+          </div>
+          <button class="btn" disabled>Coming Soon</button>
+        </article>
+
+        <article class="appt-card">
+          <img src="img/genius appointment.jpg" alt="A truck painted with a portrait of Albert Einstein" />
+          <div class="appt-body">
+            <h3>Round Robin Appointment</h3>
+            <p>A flexible session format for collaborative, multi-part discussions.</p>
+          </div>
+          <button class="btn" disabled>Coming Soon</button>
+        </article>
+      </div>
+    </section>
 
     <script src="js/menu.js"></script>
   </body>
